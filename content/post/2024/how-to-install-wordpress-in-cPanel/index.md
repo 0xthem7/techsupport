@@ -1,14 +1,15 @@
 ---
-title : How to upload wordpress in cPanel 
+title : How to install wordpress in cPanel 
 description : Installing wordpress in cPanel
 slug : how-to-install-wordpress-in-cPanel
 date : 2024-05-28 00:00:00+0000
 image : cover.png
 categories :
-    - Bug Hunting
-    - File upload vulerability
+    - Wordpress
+    - cPanel
+    - Tutorial
 tags :
-    - writeup
+    - wordpress
 weight : 1
 ---
 
@@ -63,7 +64,7 @@ Fill out the necessary details for your WordPress installation:
 - **Database Name**: You can leave this as is or create a new database name.
 - **Table Prefix**: Use the default `wp_` or change it for better security.
 
-![Configuration](configuration.png)
+![Configuration](configurations.png)
 
 ### Step 5: Complete the Installation
 
