@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>0xtheM7</title>
+        <link>http://localhost:1313/</link>
+        <description>Recent content on 0xtheM7</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Tue, 28 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>How to upload wordpress in cPanel</title>
+        <link>http://localhost:1313/p/how-to-install-wordpress-in-cpanel/</link>
+        <pubDate>Tue, 28 May 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/how-to-install-wordpress-in-cpanel/</guid>
+        <description>&lt;img src="http://localhost:1313/p/how-to-install-wordpress-in-cpanel/cover.png" alt="Featured image of post How to upload wordpress in cPanel" /&gt;&lt;p&gt;WordPress is one of the most popular content management systems (CMS) available today, and cPanel is a widely used control panel for web hosting. This guide will walk you through the steps to install WordPress using cPanel.&lt;/p&gt;
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
+&lt;p&gt;Before you begin, ensure that you have:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Access to cPanel (credentials from your web hosting provider)&lt;/li&gt;
+&lt;li&gt;A domain name&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;step-by-step-guide&#34;&gt;Step-by-Step Guide&lt;/h2&gt;
+&lt;h3 id=&#34;step-1-log-in-to-cpanel&#34;&gt;Step 1: Log in to cPanel&lt;/h3&gt;
+&lt;p&gt;First, log in to your cPanel account. You can usually access it by navigating to &lt;code&gt;yourdomain.com/cpanel&lt;/code&gt; and entering your username and password.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/how-to-install-wordpress-in-cpanel/cPanel-login.png&#34;
+	width=&#34;1462&#34;
+	height=&#34;780&#34;
+	srcset=&#34;http://localhost:1313/p/how-to-install-wordpress-in-cpanel/cPanel-login_hub20eab0fb6a50f387ead9f159c57c1df_33675_480x0_resize_box_3.png 480w, http://localhost:1313/p/how-to-install-wordpress-in-cpanel/cPanel-login_hub20eab0fb6a50f387ead9f159c57c1df_33675_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;cPanel Login&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;187&#34;
+		data-flex-basis=&#34;449px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;step-2-find-and-open-the-wordpress-installer&#34;&gt;Step 2: Find and Open the WordPress Installer&lt;/h3&gt;
+&lt;p&gt;Once you&amp;rsquo;re logged in, scroll down to the &lt;strong&gt;Software&lt;/strong&gt; section and click on &lt;strong&gt;WordPress&lt;/strong&gt; under &lt;strong&gt;Site Software&lt;/strong&gt; or &lt;strong&gt;Softaculous Apps Installer&lt;/strong&gt;, depending on your hosting provider.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/how-to-install-wordpress-in-cpanel/wordpress-installer.png&#34;
+	width=&#34;1872&#34;
+	height=&#34;710&#34;
+	srcset=&#34;http://localhost:1313/p/how-to-install-wordpress-in-cpanel/wordpress-installer_hub79c0a8b3a6651501012b728f8432260_107967_480x0_resize_box_3.png 480w, http://localhost:1313/p/how-to-install-wordpress-in-cpanel/wordpress-installer_hub79c0a8b3a6651501012b728f8432260_107967_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;WordPress Installer&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;263&#34;
+		data-flex-basis=&#34;632px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;step-3-click-on-the-install-button&#34;&gt;Step 3: Click on the Install Button&lt;/h3&gt;
+&lt;p&gt;In the WordPress installer page, click on the &lt;strong&gt;Install Now&lt;/strong&gt; button.&lt;/p&gt;
+&lt;h3 id=&#34;step-4-configure-the-wordpress-installations&#34;&gt;Step 4: Configure the WordPress Installations&lt;/h3&gt;
+&lt;p&gt;Fill out the necessary details for your WordPress installation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Choose Protocol&lt;/strong&gt;: Select &lt;code&gt;http://&lt;/code&gt; or &lt;code&gt;https://&lt;/code&gt; depending on your SSL certificate.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Choose Domain&lt;/strong&gt;: Select the domain where you want to install WordPress.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;In Directory&lt;/strong&gt;: Leave this blank to install WordPress in the root directory, or enter a folder name if you want it installed in a subdirectory.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;site-settings&#34;&gt;Site Settings&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Site Name&lt;/strong&gt;: Your site&amp;rsquo;s name.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Site Description&lt;/strong&gt;: A short description of your site.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;admin-account&#34;&gt;Admin Account&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Admin Username&lt;/strong&gt;: Create a username for the WordPress admin account.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Admin Password&lt;/strong&gt;: Create a strong password.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Admin Email&lt;/strong&gt;: Enter your email address.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;database-settings&#34;&gt;Database Settings&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Database Name&lt;/strong&gt;: You can leave this as is or create a new database name.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Table Prefix&lt;/strong&gt;: Use the default &lt;code&gt;wp_&lt;/code&gt; or change it for better security.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/how-to-install-wordpress-in-cpanel/configuration.png&#34;
+	width=&#34;1607&#34;
+	height=&#34;851&#34;
+	srcset=&#34;http://localhost:1313/p/how-to-install-wordpress-in-cpanel/configuration_hu14a30175a32b90cb4a6fffb00b723241_86821_480x0_resize_box_3.png 480w, http://localhost:1313/p/how-to-install-wordpress-in-cpanel/configuration_hu14a30175a32b90cb4a6fffb00b723241_86821_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Configuration&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;188&#34;
+		data-flex-basis=&#34;453px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;step-5-complete-the-installation&#34;&gt;Step 5: Complete the Installation&lt;/h3&gt;
+&lt;p&gt;After filling out the details, scroll down and click the &lt;strong&gt;Install&lt;/strong&gt; button. The installation process will take a few
+minutes.&lt;/p&gt;
+&lt;h3 id=&#34;step-6-access-your-new-wordpress-site&#34;&gt;Step 6: Access Your New WordPress Site&lt;/h3&gt;
+&lt;p&gt;Once the installation is complete, you will see a success message with the URL to your new WordPress site and the admin URL. Click on the links to visit your site and log in to the WordPress admin dashboard.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/how-to-install-wordpress-in-cpanel/success-message.png&#34;
+	width=&#34;1506&#34;
+	height=&#34;851&#34;
+	srcset=&#34;http://localhost:1313/p/how-to-install-wordpress-in-cpanel/success-message_hu5ac9002d1ff7eca9b0d2b644964efbc7_90272_480x0_resize_box_3.png 480w, http://localhost:1313/p/how-to-install-wordpress-in-cpanel/success-message_hu5ac9002d1ff7eca9b0d2b644964efbc7_90272_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Success Message&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;176&#34;
+		data-flex-basis=&#34;424px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Congratulations! You&amp;rsquo;ve successfully installed WordPress using cPanel. You can now start customizing your site and creating content. If you encounter any issues, refer to the documentation provided by your hosting provider or the WordPress support forums.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>about</title>
+        <link>http://localhost:1313/about/</link>
+        <pubDate>Fri, 06 Oct 2023 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/about/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;https://avatars.githubusercontent.com/u/63031654&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Himansu Mahato&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;himansu-mahato&#34;&gt;Himansu Mahato&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;I am just a random guy on the internet who loves to break into the computers&lt;/strong&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Archives</title>
+        <link>http://localhost:1313/archives/</link>
+        <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>http://localhost:1313/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>
