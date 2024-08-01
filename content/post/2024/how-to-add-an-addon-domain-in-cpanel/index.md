@@ -1,8 +1,8 @@
 ---
-title : How to Add an Addon Domain in cPanel
+title : How to Add an Addon Domain in cPanel 
 description : A step-by-step guide on adding an addon domain in cPanel to manage multiple websites from a single hosting account.
-slug : how-to-add-an-addon-domain-in-cpanel
-date : 2024-08-02 00:00:00+0000
+slug : how-to-add-addon-domain-in-cPanel
+date : 2024-05-28 00:00:00+0000
 image : cover.png
 categories :
     - Wordpress
@@ -24,24 +24,31 @@ Adding an addon domain in cPanel allows you to host multiple domains on a single
 
 1. **Log in to Your cPanel Account**
 
-   First, log in to your cPanel account using your username and password. You can usually access cPanel by navigating to `yourdomain.com/cpanel` in your web browser.
+   First, log in to your cPanel account using your username and password. You can usually access cPanel by navigating to `yourcooldomain.com/cpanel` in your web browser.  
 
-2. **Navigate to the Addon Domains Section**
+   ![cPanel Login](cPanel-login.png)
 
-   Once you're logged in, locate the "Addon Domains" option under the "Domains" section. Click on it to open the addon domain management interface.
+2. **Navigate to the Domains Section**
+
+   Once you're logged in, Head over to the "Domains" section. Click on "Create a New Domain" to open the domain management interface.  
+
+   ![Domain Management](addon_domain.png)
 
 3. **Enter the New Domain Information**
 
-   In the Addon Domains interface, you will see a form to add your new domain. You need to provide the following information:
+   In the Domains interface, you will see a form to add your new domain. You need to provide the following information:
 
    - **New Domain Name**: Enter the domain name you want to add (e.g., `example.com`).
    - **Subdomain**: This will be automatically filled based on the domain name you enter. You can leave it as it is.
-   - **Document Root**: This is the directory where the files for your new domain will be stored. It will be automatically filled based on the domain name you enter, but you can change it if needed.
+   - **Document Root**: This is the directory where the files for your new domain will be stored. It will be automatically filled based on the domain name you enter, but you can change it if needed.  
+   `Note : Uncheck the share document root`  
 
 4. **Click "Add Domain"**
 
-   After filling in all the required information, click the "Add Domain" button. cPanel will create the addon domain and set up the necessary directory structure.
+   After filling in all the required information, click the "Submit" button. cPanel will create the addon domain and set up the necessary directory structure.
 
+
+   ![Domain Config](domain_configuration.png)
 5. **Upload Your Website Files**
 
    Now that the addon domain has been added, you can upload your website files to the document root directory specified earlier. You can use the cPanel File Manager or an FTP client to upload your files.
