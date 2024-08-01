@@ -6,13 +6,13 @@
         <description>Recent content in Posts on 0xtheM7</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 28 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>File upload via mime type</title>
+        <lastBuildDate>Fri, 02 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>How to install wordpress in cPanel</title>
         <link>http://localhost:1313/p/how-to-install-wordpress-in-cpanel/</link>
         <pubDate>Tue, 28 May 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/p/how-to-install-wordpress-in-cpanel/</guid>
-        <description>&lt;img src="http://localhost:1313/p/how-to-install-wordpress-in-cpanel/cover.png" alt="Featured image of post File upload via mime type" /&gt;&lt;p&gt;WordPress is one of the most popular content management systems (CMS) available today, and cPanel is a widely used control panel for web hosting. This guide will walk you through the steps to install WordPress using cPanel.&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/p/how-to-install-wordpress-in-cpanel/cover.png" alt="Featured image of post How to install wordpress in cPanel" /&gt;&lt;p&gt;WordPress is one of the most popular content management systems (CMS) available today, and cPanel is a widely used control panel for web hosting. This guide will walk you through the steps to install WordPress using cPanel.&lt;/p&gt;
 &lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;
 &lt;p&gt;Before you begin, ensure that you have:&lt;/p&gt;
 &lt;ul&gt;
@@ -77,18 +77,18 @@
 &lt;li&gt;&lt;strong&gt;Database Name&lt;/strong&gt;: You can leave this as is or create a new database name.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Table Prefix&lt;/strong&gt;: Use the default &lt;code&gt;wp_&lt;/code&gt; or change it for better security.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/how-to-install-wordpress-in-cpanel/configuration.png&#34;
-	width=&#34;1607&#34;
-	height=&#34;851&#34;
-	srcset=&#34;http://localhost:1313/p/how-to-install-wordpress-in-cpanel/configuration_hu14a30175a32b90cb4a6fffb00b723241_86821_480x0_resize_box_3.png 480w, http://localhost:1313/p/how-to-install-wordpress-in-cpanel/configuration_hu14a30175a32b90cb4a6fffb00b723241_86821_1024x0_resize_box_3.png 1024w&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/how-to-install-wordpress-in-cpanel/configurations.png&#34;
+	width=&#34;1613&#34;
+	height=&#34;874&#34;
+	srcset=&#34;http://localhost:1313/p/how-to-install-wordpress-in-cpanel/configurations_hue4cd9c646b0720b652f4f83b2fae5d1f_97072_480x0_resize_box_3.png 480w, http://localhost:1313/p/how-to-install-wordpress-in-cpanel/configurations_hue4cd9c646b0720b652f4f83b2fae5d1f_97072_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Configuration&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;188&#34;
-		data-flex-basis=&#34;453px&#34;
+		data-flex-grow=&#34;184&#34;
+		data-flex-basis=&#34;442px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;h3 id=&#34;step-5-complete-the-installation&#34;&gt;Step 5: Complete the Installation&lt;/h3&gt;
