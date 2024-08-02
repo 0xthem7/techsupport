@@ -5,9 +5,9 @@ slug : how-to-add-addon-domain-in-cPanel
 date : 2024-05-28 00:00:00+0000
 image : cover.png
 categories :
-    - Wordpress
+    - Addon Domain
     - cPanel
-    - Tutorial
+    - Website Management
 tags :
     - cPanel
     - Web Hosting
