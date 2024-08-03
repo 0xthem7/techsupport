@@ -9,7 +9,25 @@
     <lastmod>2024-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cors/</loc>
+    <lastmod>2024-08-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cpanel/</loc>
+    <lastmod>2024-08-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/p/how-to-enable-cors-in-cpanel/</loc>
+    <lastmod>2024-08-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2024-08-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-08-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/web-development/</loc>
+    <lastmod>2024-08-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/addon-domain/</loc>
     <lastmod>2024-05-28T00:00:00+00:00</lastmod>
@@ -20,16 +38,7 @@
     <loc>http://localhost:1313/categories/</loc>
     <lastmod>2024-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cpanel/</loc>
-    <lastmod>2024-05-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/cpanel/</loc>
-    <lastmod>2024-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2024-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/tutorial/</loc>
