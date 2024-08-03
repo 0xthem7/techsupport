@@ -12,14 +12,14 @@
         <pubDate>Tue, 28 May 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/p/how-to-add-addon-domain-in-cpanel/</guid>
-        <description>&lt;img src="http://localhost:1313/p/how-to-add-addon-domain-in-cpanel/cover.png" alt="Featured image of post How to Add an Addon Domain in cPanel" /&gt;&lt;h3 id=&#34;how-to-add-an-addon-domain-in-cpanel&#34;&gt;How to Add an Addon Domain in cPanel&lt;/h3&gt;
-&lt;p&gt;Adding an addon domain in cPanel allows you to host multiple domains on a single hosting account. This is particularly useful if you want to manage multiple websites from a single control panel. In this guide, we will walk you through the steps to add an addon domain in cPanel.&lt;/p&gt;
-&lt;h4 id=&#34;step-by-step-guide-to-adding-an-addon-domain&#34;&gt;Step-by-Step Guide to Adding an Addon Domain&lt;/h4&gt;
-&lt;ol&gt;
+        <description>&lt;img src="http://localhost:1313/p/how-to-add-addon-domain-in-cpanel/cover.png" alt="Featured image of post How to Add an Addon Domain in cPanel" /&gt;&lt;h3 id=&#34;how-to-add-an-addon-domain-in-cpanel&#34;&gt;How to Add an Addon Domain in cPanel
+&lt;/h3&gt;&lt;p&gt;Adding an addon domain in cPanel allows you to host multiple domains on a single hosting account. This is particularly useful if you want to manage multiple websites from a single control panel. In this guide, we will walk you through the steps to add an addon domain in cPanel.&lt;/p&gt;
+&lt;h4 id=&#34;step-by-step-guide-to-adding-an-addon-domain&#34;&gt;Step-by-Step Guide to Adding an Addon Domain
+&lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Log in to Your cPanel Account&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;First, log in to your cPanel account using your username and password. You can usually access cPanel by navigating to &lt;code&gt;yourcooldomain.com/cpanel&lt;/code&gt; in your web browser.
-&lt;img src=&#34;http://localhost:1313/p/how-to-add-addon-domain-in-cpanel/cPanel-login.png&#34;
+&lt;p&gt;First, log in to your cPanel account using your username and password. You can usually access cPanel by navigating to &lt;code&gt;yourcooldomain.com/cpanel&lt;/code&gt; in your web browser.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/how-to-add-addon-domain-in-cpanel/cPanel-login.png&#34;
 	width=&#34;1462&#34;
 	height=&#34;780&#34;
 	srcset=&#34;http://localhost:1313/p/how-to-add-addon-domain-in-cpanel/cPanel-login_hub20eab0fb6a50f387ead9f159c57c1df_33675_480x0_resize_box_3.png 480w, http://localhost:1313/p/how-to-add-addon-domain-in-cpanel/cPanel-login_hub20eab0fb6a50f387ead9f159c57c1df_33675_1024x0_resize_box_3.png 1024w&#34;
@@ -36,8 +36,8 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Navigate to the Domains Section&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Once you&amp;rsquo;re logged in, Head over to the &amp;ldquo;Domains&amp;rdquo; section. Click on &amp;ldquo;Create a New Domain&amp;rdquo; to open the domain management interface.
-&lt;img src=&#34;http://localhost:1313/p/how-to-add-addon-domain-in-cpanel/addon_domain.png&#34;
+&lt;p&gt;Once you&amp;rsquo;re logged in, Head over to the &amp;ldquo;Domains&amp;rdquo; section. Click on &amp;ldquo;Create a New Domain&amp;rdquo; to open the domain management interface.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/how-to-add-addon-domain-in-cpanel/addon_domain.png&#34;
 	width=&#34;1591&#34;
 	height=&#34;634&#34;
 	srcset=&#34;http://localhost:1313/p/how-to-add-addon-domain-in-cpanel/addon_domain_hufb8baab1b7bf6443726b848d5f1f205c_49952_480x0_resize_box_3.png 480w, http://localhost:1313/p/how-to-add-addon-domain-in-cpanel/addon_domain_hufb8baab1b7bf6443726b848d5f1f205c_49952_1024x0_resize_box_3.png 1024w&#34;
@@ -58,7 +58,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;New Domain Name&lt;/strong&gt;: Enter the domain name you want to add (e.g., &lt;code&gt;example.com&lt;/code&gt;).&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Subdomain&lt;/strong&gt;: This will be automatically filled based on the domain name you enter. You can leave it as it is.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Document Root&lt;/strong&gt;: This is the directory where the files for your new domain will be stored. It will be automatically filled based on the domain name you enter, but you can change it if needed.
+&lt;li&gt;&lt;strong&gt;Document Root&lt;/strong&gt;: This is the directory where the files for your new domain will be stored. It will be automatically filled based on the domain name you enter, but you can change it if needed.&lt;br&gt;
 &lt;code&gt;Note : Uncheck the share document root&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -89,8 +89,8 @@
 &lt;p&gt;If your domain is registered with a different provider, you will need to update the DNS settings to point to your hosting server. Typically, you will need to set the nameservers to those provided by your hosting provider.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h4 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h4&gt;
-&lt;p&gt;Adding an addon domain in cPanel is a straightforward process that allows you to manage multiple websites from a single hosting account. By following the steps outlined in this guide, you can easily set up and configure an addon domain to host your new website.&lt;/p&gt;
+&lt;h4 id=&#34;conclusion&#34;&gt;Conclusion
+&lt;/h4&gt;&lt;p&gt;Adding an addon domain in cPanel is a straightforward process that allows you to manage multiple websites from a single hosting account. By following the steps outlined in this guide, you can easily set up and configure an addon domain to host your new website.&lt;/p&gt;
 </description>
         </item>
         
