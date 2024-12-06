@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>SSL on 0xtheM7</title>
+        <link>http://localhost:1313/tags/ssl/</link>
+        <description>Recent content in SSL on 0xtheM7</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sun, 28 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/ssl/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>How to Enable HTTPS from .htaccess</title>
+        <link>http://localhost:1313/p/how-to-enable-https-from-htaccess/</link>
+        <pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/how-to-enable-https-from-htaccess/</guid>
+        <description>&lt;img src="http://localhost:1313/p/how-to-enable-https-from-htaccess/cover.png" alt="Featured image of post How to Enable HTTPS from .htaccess" /&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction
+&lt;/h2&gt;&lt;p&gt;Enabling HTTPS for your website is essential to ensure secure communication between the server and the clients. This guide will show you how to force HTTPS using the &lt;code&gt;.htaccess&lt;/code&gt; file.&lt;/p&gt;
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Access to your cPanel account or FTP to edit the &lt;code&gt;.htaccess&lt;/code&gt; file.&lt;/li&gt;
+&lt;li&gt;An SSL certificate installed on your server.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;steps-to-enable-https-from-htaccess&#34;&gt;Steps to Enable HTTPS from .htaccess
+&lt;/h2&gt;&lt;h3 id=&#34;1-access-your-htaccess-file&#34;&gt;1. Access Your .htaccess File
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Via cPanel&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Log in to your cPanel account.&lt;/li&gt;
+&lt;li&gt;Navigate to the &lt;strong&gt;File Manager&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Locate and edit the &lt;code&gt;.htaccess&lt;/code&gt; file in the root directory of your website (usually the &lt;code&gt;public_html&lt;/code&gt; directory).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/how-to-enable-https-from-htaccess/locate-htaccess.png&#34;
+	width=&#34;1540&#34;
+	height=&#34;415&#34;
+	srcset=&#34;http://localhost:1313/p/how-to-enable-https-from-htaccess/locate-htaccess_hu21aa8adf695a67027a4f53444eab5be7_39228_480x0_resize_box_3.png 480w, http://localhost:1313/p/how-to-enable-https-from-htaccess/locate-htaccess_hu21aa8adf695a67027a4f53444eab5be7_39228_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;File Manager&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;371&#34;
+		data-flex-basis=&#34;890px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Via FTP&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;Connect to your server using an FTP client.&lt;/li&gt;
+&lt;li&gt;Download the &lt;code&gt;.htaccess&lt;/code&gt; file from the root directory of your website.&lt;/li&gt;
+&lt;li&gt;Open it in a text editor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;2-add-rewrite-rules&#34;&gt;2. Add Rewrite Rules
+&lt;/h3&gt;&lt;p&gt;Add the following code snippet to your &lt;code&gt;.htaccess&lt;/code&gt; file to redirect all HTTP traffic to HTTPS:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-apache&#34; data-lang=&#34;apache&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;IfModule&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;mod_rewrite.c&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;RewriteEngine&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;On&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;RewriteCond&lt;/span&gt; %{HTTPS} &lt;span class=&#34;k&#34;&gt;off&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;RewriteRule&lt;/span&gt; ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;&amp;lt;/IfModule&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/how-to-enable-https-from-htaccess/edited-htaccess.png&#34;
+	width=&#34;1114&#34;
+	height=&#34;419&#34;
+	srcset=&#34;http://localhost:1313/p/how-to-enable-https-from-htaccess/edited-htaccess_hu040784c83de90c648632e04b62878ee8_28664_480x0_resize_box_3.png 480w, http://localhost:1313/p/how-to-enable-https-from-htaccess/edited-htaccess_hu040784c83de90c648632e04b62878ee8_28664_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Edited htaccess&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;265&#34;
+		data-flex-basis=&#34;638px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;3-save-and-upload-the-htaccess-file&#34;&gt;3. Save and Upload the .htaccess File
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;If you edited the &lt;code&gt;.htaccess&lt;/code&gt; file via cPanel, simply save the changes.&lt;/li&gt;
+&lt;li&gt;If you edited it locally via FTP, upload the modified &lt;code&gt;.htaccess&lt;/code&gt; file back to your server.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;4-verify-the-redirection&#34;&gt;4. Verify the Redirection
+&lt;/h3&gt;&lt;p&gt;Visit your website using &lt;code&gt;http://&lt;/code&gt; and ensure it redirects to &lt;code&gt;https://&lt;/code&gt;. You should see the padlock icon in the browser&amp;rsquo;s address bar, indicating a secure connection.&lt;/p&gt;
+&lt;h2 id=&#34;troubleshooting&#34;&gt;Troubleshooting
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Ensure mod_rewrite is enabled: If the redirection is not working, make sure the mod_rewrite module is enabled on your server.&lt;/li&gt;
+&lt;li&gt;Check for syntax errors: Verify that there are no syntax errors in the .htaccess file, as they can cause server issues.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion
+&lt;/h2&gt;&lt;p&gt;Forcing HTTPS using the .htaccess file is a simple yet effective way to secure your website. This redirection ensures that all traffic to your site is encrypted, providing better security for your users.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
