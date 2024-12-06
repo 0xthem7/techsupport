@@ -1,3 +1,4 @@
+---
 title: How to Set Up Webmail with Gmail
 description: A step-by-step guide on setting up webmail with Gmail to send and receive emails from your domain using Gmail.
 slug: how-to-set-up-webmail-with-gmail
